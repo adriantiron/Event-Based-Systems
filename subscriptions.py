@@ -26,7 +26,7 @@ for i in range(0, len(bal_vars)):
         bal_vars[i] = rd.randrange(bal_int['low'], bal_int['high'])
 
 
-with open("pub.txt", "w") as fd:
+with open("res/sub.txt", "w") as fd:
     for x in range(0, pub_nb):
         args = {'bank': banks_list_vars[x],
                 'eq_op': equal_ops_vars[x],
